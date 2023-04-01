@@ -15,7 +15,7 @@ https://explorers.l0vd.com/nois-mainnet
 https://github.com/L0vd/Nois-mainnet/tree/main/Monitoring
 
 ## :heart: State sync
-https://github.com/L0vd/Nois-mainnet/tree/main/StateSync
+https://github.com/L0vd/Nois-mainnet/tree/main/State_Sync
 
 ## :heart: Wallet bot
 https://github.com/L0vd/Nois-mainnet/tree/main/Nois_wallet_bot
