@@ -7,6 +7,11 @@
 
 ## L0vd Services for the Nois Community
 
+## :heart: Public RPC endpoint
+https://nois-mainnet.rpc.l0vd.com
+
+## :heart: Public API
+https://nois-mainnet.api.l0vd.com
 
 ## :heart: Explorer
 https://explorers.l0vd.com/nois-mainnet
@@ -20,8 +25,3 @@ https://github.com/L0vd/Nois-mainnet/tree/main/State_Sync
 ## :heart: Wallet bot
 https://github.com/L0vd/Nois-mainnet/tree/main/Nois_wallet_bot
 
-## :heart: Public RPC endpoint
-https://nois-mainnet.rpc.l0vd.com
-
-## :heart: Public API
-https://nois-mainnet.api.l0vd.com
