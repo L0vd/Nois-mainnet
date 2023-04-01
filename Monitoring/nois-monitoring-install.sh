@@ -58,7 +58,12 @@ sudo cat <<EOF | sudo tee /etc/apt/sources.list.d/influxdata.list
 deb https://repos.influxdata.com/ubuntu bionic stable
 EOF
 
-sudo apt update && sudo apt -y install telegraf
+
+wget -qO- https://repos.influxdata.com/influxdata-archive_compat.key | sudo apt-key add -
+source /etc/lsb-release
+echo "deb https://repos.influxdata.com/${DISTRIB_ID,,} ${DISTRIB_CODENAME} stable" | sudo tee /etc/apt/sources.list.d/influxdb.list
+
+sudo apt-get update && sudo apt-get install telegraf
 sudo systemctl enable --now telegraf
 sudo systemctl is-enabled telegraf
 
